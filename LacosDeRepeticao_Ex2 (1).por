@@ -1,12 +1,13 @@
 //Laço de repetição Faça Enquanto
 programa {
+  inclua biblioteca Util-->u
   funcao inicio() {
     inteiro palpite
     logico ganhou=falso
     faca{
-    escreva("Qual o seu palpite? ")
+    escreva("\nEscreva o seu palpite? ")
     leia(palpite)
-    se(palpite==7){
+    se(palpite==u.sorteia(1,10)){
       escreva("Parabuoins, você acertou!👏")
       ganhou=verdadeiro
     }senao{
