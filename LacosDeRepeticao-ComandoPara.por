@@ -1,6 +1,5 @@
 /*Laços de repetição
 Para -> Quando usar: Repetições com número conhecido.
-Contador Regressivo (TIMER)
 */
 programa {
   inclua biblioteca Util --> u
